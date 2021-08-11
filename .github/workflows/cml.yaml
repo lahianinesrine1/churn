@@ -2,7 +2,7 @@ name : churn_model
 on : [push] 
 jobs :
    run :
-     runs-on : ubuntu-latest 
+    runs-on : ubuntu-latest 
     steps : 
       - uses : actions/checkout@v2 
       - uses : actions/setup-python@v2 
