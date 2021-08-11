@@ -6,7 +6,7 @@ jobs :
     steps : 
       - uses : actions/checkout@v2 
       - uses : actions/setup-python@v2 
-      - uses : iterative/setup-cml@ v1 
+      - uses : iterative/setup-cml@v1 
       - name : Train model 
         env :
            REPO_TOKEN : ${{ secrets.GITHUB_TOKEN }} 
